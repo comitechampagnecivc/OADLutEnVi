@@ -19,11 +19,11 @@
         <div class="flex-container">
             <div class="indice-exploitation">
                 <h1>Pondération des critères</h1>
-                <h2> L'exploitation -<div id="resultexp"></div></h2>
+                <h2> L'exploitation <div id="resultexp"></div></h2>
                 <label for="ratioreserve">Réserve : <input type="number" id="ratioreserve" min="0"><div id="fractionreserve"></div></label>
                 <label for="ratioengagement"> Engagement : <input type="number" id="ratioengagement" min="0"><div id="fractionengagement"></div></label>
                 <label for="ratiostatut">Statut : <input type="number" id="ratiostatut" min="0"><div id="fractionstatut"></div></label>
-                <h2> La parcelle -<div id="resultparc"></div></h2>
+                <h2> La parcelle <div id="resultparc"></div></h2>
                 <label for="ratiosurface">Surface parcelle : <input type="number" id="ratiosurface" min="0"><div id="fractionsurface"></div></label>
                 <label for="ratioage">Age de la parcelle : <input type="number" id="ratioage" min="0"><div id="fractionage"></div></label>
                 <label for="ratioenroulement">Enroulement : <input type="number" id="ratioenroulement" min="0"><div id="fractionenroul"></div></label>
@@ -34,10 +34,10 @@
         <div class="flex-container">
         <div class="indice-exploitation">
             <h1>Indice exploitation</h1>
-            <label for="surfacetot">Surface viticole totale (ha):<input type="number" id="surfacetot"><br></label>
-            <label for="reserve">Niveau de réserve (kg):<input type="number" id="reserve" min="0" max="10000"><br></label>
-            <label for="engagement">Membre du syndicat de la commune:<input type="checkbox" id="engagement"><br></label>
-            <label for="statut">Statut:
+            <label for="surfacetot">Surface viticole totale (ha) :<input type="number" id="surfacetot"><br></label>
+            <label for="reserve">Niveau de réserve (kg) :<input type="number" id="reserve" min="0" max="10000"><br></label>
+            <label for="engagement">Membre du syndicat de la commune :<input type="checkbox" id="engagement"><br></label>
+            <label for="statut">Statut :
                 <select id="statut">
                 <option value="100">Vente totale des raisins</option>
                 <option value="50">Vente majoritaire de raisins</option>
@@ -50,10 +50,10 @@
         <div class="flex-container">
         <div class="indice-exploitation">
             <h1>Indice parcelle</h1>
-            <label for="surface">Surface de la parcelle (ha):<input type="number" id="surface" min="0"><br></label>
-            <label for="age">Age de la parcelle:<input type="number" id="age" min="0"><br></label>
-            <label for="enroulement">Pourcentage enroulement:<input type="number" id="enroulement" min="0" max="100"><br></label>            
-            <label for="proprietaire">Propriétaire:<input type="checkbox" id="proprietaire"><br></label>
+            <label for="surface">Surface de la parcelle (ha) :<input type="number" id="surface" min="0"><br></label>
+            <label for="age">Age de la parcelle :<input type="number" id="age" min="0"><br></label>
+            <label for="enroulement">Pourcentage enroulement :<input type="number" id="enroulement" min="0" max="100"><br></label>            
+            <label for="proprietaire">Propriétaire :<input type="checkbox" id="proprietaire"><br></label>
             <button onclick="calculateIndice()">Calculer l'indice</button>
             <div id="result"></div>
         </div>
