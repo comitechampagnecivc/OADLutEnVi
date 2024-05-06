@@ -324,8 +324,8 @@ button:hover {
 }
 
 .haut-de-page img {
-    height: 100%;
-    width: auto;
+    height: auto;
+    width: 100px;
 }
 
 .bas-de-page {
