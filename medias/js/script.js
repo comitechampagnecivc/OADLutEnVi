@@ -93,8 +93,8 @@ function calculateIndice() {
     // Affichage du résultat
     document.getElementById("result").innerHTML = indice.toFixed(2) + "%";
 
-    document.getElementById("resultexp").innerHTML = indiceexp.toFixed(2) + "%";
-    document.getElementById("resultparc").innerHTML = indiceparc.toFixed(2) + "%";
+    document.getElementById("resultexp").innerHTML = "Critères d'exploitations" + " - " + indiceexp.toFixed(2) + "%";
+    document.getElementById("resultparc").innerHTML = "Critères parcellaires" + " - " + indiceparc.toFixed(2) + "%";
 
     document.getElementById("fractionreserve").innerHTML = fractionreserve.toFixed(2) + "%";
     document.getElementById("fractionengagement").innerHTML = fractionengagement.toFixed(2) + "%";

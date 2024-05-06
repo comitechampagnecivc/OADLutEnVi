@@ -207,17 +207,21 @@ button:hover {
 }
 
 #resultexp {
-    text-align: center;
-    font-size: medium;
-    font-style: italic;
+    text-align: left;
+    font-size: 18px;
     font-weight: 600;
+    margin-top: 8px;
+    margin-bottom: 4px;
+    text-decoration:underline;
 }
 
 #resultparc {
-    text-align: center;
-    font-size: medium;
-    font-style: italic;
+    text-align: left;
+    font-size: 18px;
     font-weight: 600;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    text-decoration: underline;
 }
 
 #fractionreserve {
@@ -276,14 +280,19 @@ button:hover {
     display: inline-block;
     color: #fff;
     text-align: center;
+    align-items: center;
+    vertical-align: middle;
     font-size: 24px;
     font-weight: bold;
+
 }
 
 .infobulle-logo {
     height: 35px;
     width: auto;
     position: center;
+    align-items: center;
+    vertical-align: middle;
     cursor:pointer;
 }
 
