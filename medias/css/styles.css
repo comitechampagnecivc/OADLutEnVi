@@ -146,38 +146,64 @@ label {
 }
 
 button {
+    display: flex;
+    flex-direction: column;
+    -ms-flex-align: center;
+    text-align: center;
+    margin: auto;
+    padding: 10px 20px;
     background-color: #007bff;
+    display: flex;
+    align-items: center;
     color: #fff;
     border: none;
-    padding: 10px 20px;
     border-radius: 4px;
     cursor: pointer;
-    width: 100%;
+    width: 60%;
     display: block;
     font-size: 16px;
     transition: background-color 0.3s ease;
-    margin-top: 20px; /* Ajout de marge en haut */
 }
 
 button:hover {
     background-color: #0056b3;
 }
 
+.bouton_pond {
+    display: flex;
+    flex-direction: column;
+    -ms-flex-align: center;
+    text-align: center;
+    margin: auto; 
+    background-color: #007bff;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 60%;
+    display: block;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
 #result {
+    display: flex;
+    flex-direction: column;
+    -ms-flex-align: center;
+    text-align: center;
+    margin: auto;
     background-color: rgba(255, 255, 255, 0.8);
     color: #000000;
     border: none;
-    padding: 10px 20px;
     border-radius: 4px;
     width: 40%;
-    display: flex;
     justify-content: center;
     align-items: center;
     font-size: 30px;
     font-weight: 600;
     transition: background-color 0.3s ease;
-    margin-top: 20px;
-    text-align: center;
 }
 
 #resultexp {

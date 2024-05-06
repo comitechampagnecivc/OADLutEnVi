@@ -33,12 +33,13 @@
                 <label for="ratioage">Age de la parcelle : <input type="number" id="ratioage" min="0"><div id="fractionage"></div></label>
                 <label for="ratioenroulement">Enroulement : <input type="number" id="ratioenroulement" min="0"><div id="fractionenroul"></div></label>
                 <label for="ratioproprietaire">Propriétaire : <input type="number" id="ratioproprietaire" min="0"><div id="fractionprop"></div></label>      
+                <button class="bouton_pond" onclick="calculateIndice()">Pondérer des critères</button>
             </div>
         </div>
 
         <div class="flex-container">
         <div class="indice-exploitation">
-            <h1>Indice exploitation</h1>
+            <h1>Données d'exploitation</h1>
             <label for="surfacetot">Surface viticole totale (ha) :<input type="number" id="surfacetot"><br></label>
             <label for="reserve">Niveau de réserve (kg) :<input type="number" id="reserve" min="0" max="10000"><br></label>
             <label for="engagement">Membre du syndicat de la commune :<input type="checkbox" id="engagement"><br></label>
