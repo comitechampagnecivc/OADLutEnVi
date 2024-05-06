@@ -68,7 +68,7 @@ h2 {
 
 .container {
     display: flex;
-    width: 500px;
+    width: 335px;
     flex-direction: column;
     -ms-flex-align: center;
     text-align: center;
@@ -121,7 +121,7 @@ label {
 .indice-parcelle input[type="number"],
 .indice-parcelle select,
 .indice-parcelle input[type="checkbox"] {
-    width: 40%; 
+    width: 35%; 
     text-align: left;
     padding: 8px;
     margin-bottom: 10px;
