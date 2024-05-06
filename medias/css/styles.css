@@ -13,7 +13,9 @@ header {
 
 a {
     text-align: center;
-    font-size: large;
+    font-size: small;
+    font-style: italic;
+    text-align: center;
 }
 
 h1 {
